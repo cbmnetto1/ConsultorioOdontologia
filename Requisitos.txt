@@ -1,0 +1,31 @@
+REQUESITOS FUNCIONAIS
+
+Como usuário, conseguir saber os serviços ofertados
+Como usuário, conseguir saber a localização do consultório
+Como usuário, conseguir saber informações de contato para marcar consulta (Instagram, WhatsApp)
+Como usuário, conseguir saber mais sobre os profissionais
+Como administrador, ser capaz de atualizar as informações do site sem a necessidade de um desenvolvedor
+Como administrador, ser capaz de adicionar notícias
+de odontologia no site
+
+REQUESITOS NÃO-FUNCIONAIS
+
+Performance:
+
+Tempo de resposta rápido, especialmente em celulares
+Suporte a alta conexão de usuários
+
+Usabilidade:
+
+Design responsivo para diferentes tipos de tela
+Interface intuitiva
+
+Confiabilidade:
+
+Garantir que o sie esteja disponível o máximo possível
+Implementar backups automáticos para recuperação rápida em caso de falha ou perda de dados
+
+Manutenção:
+
+Documentar claramente o código para manutenção futura
+
