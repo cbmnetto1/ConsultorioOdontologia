@@ -10,17 +10,17 @@ body {
     line-height: 1.6;
 }
 
+/* Navbar */
+
 .navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
     background-color: #5b0c2b;
     display: flex;
     align-items: center;
     padding: 10px 50px;
     justify-content: center;
-}
-
-.navbar img{
-    height: 150px;
-    margin-right: 20px;
 }
 
 .nav-links a{
@@ -34,6 +34,27 @@ body {
 
 .nav-links a:hover {
     color: #ddd;
+}
+
+/* Home */
+
+#home{
+    padding: 20px;
+}
+
+.container-home{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#home img{
+    height: 200px;
+    margin-right: 20px;
+}
+
+.card-home {
+    max-width: 600px;
 }
 
 .container {
@@ -55,6 +76,22 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     flex: 1 1 calc(33.33% - 20px);
     box-sizing: border-box;
+}
+#profissionais{
+    max-width: 800;
+    margin: 0 auto;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#profissionais img{
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
 }
 
 /* header {
