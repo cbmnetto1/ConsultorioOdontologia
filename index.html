@@ -1,50 +1,51 @@
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Consultório de dentista em Recife">
-    <meta name="keywords" content="dentista, consultorio, odontologia">
+    <meta name="description" content="Consultório odontológico em Recife com uma equipe de profissionais qualificados.">
+    <meta name="keywords" content="dentista, consultório odontológico, tratamentos dentários, Recife">
     <title>Consultorio</title>
-    <style>
-        body{
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
-        .navbar {
-            background-color: #5b0c2b;
-            display: flex;
-            align-items: center;
-            padding: 10px 100px;
-            justify-content: space-between;
-        }
-        .navbar img {
-            height: 75px;
-            margin-right: 20px;
-        }
-        .navbar a {
-            color: white;
-            text-decoration: none;
-            margin: 10;
-            font-weight: bold;
-            font-size: 20px;
-        }
-        .navbar a:hover {
-            color: #ddd
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="navbar">
-        <!-- Logo -->
-         <img src="LogoConsultorio.jpeg" alt="Logo Consultorio"/>
-        <div class="nav-links">
+    <header class="navbar">
+        <div class="logo-container">
+            <img src="LogoConsultorio.jpeg" alt="Logo Consultorio"/>
+        </div>
+        <nav class="nav-links">
             <a href="#noticias">Notícias</a>
             <a href="#tratamentos">Tratamentos</a>
             <a href="#profissionais">Profissionais</a>
             <a href="#localizacao">Localização</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h2>Clínico Geral</h2>
+            <p>Exemplo</p>
         </div>
     </div>
 
-    <h2>Noticias</h2>
+    <section id="noticias">
+        <h2>Notícias</h2>
+        <p>Últimas notícias da clínica...</p>
+    </section>
+
+    <section id="tratamentos">
+        <h2>Tratamentos</h2>
+        <p>Descrição dos tratamentos oferecidos na clínica...</p>
+    </section>
+
+    <section id="profissionais">
+        <h2>Profissionais</h2>
+        <p>Informações sobre os profissionais da clínica...</p>
+    </section>
+
+    <section id="localizacao">
+        <h2>Localização</h2>
+        <p>Endereço e informações de contato...</p>
+    </section>
 </body>
 </html>
