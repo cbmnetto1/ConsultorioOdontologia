@@ -1,6 +1,10 @@
 header {
     width: 100%;
     padding: 28px 8%;
+    position: sticky;
+    top: 0;
+    background-color: #fff9ea;
+    z-index: 3;
 }
 
 #navbar {
@@ -22,7 +26,7 @@ header {
 
 .nav-item a {
     text-decoration: none;
-    color: white;
+    color: blue;
     font-weight: 600;
 }
 
