@@ -6,21 +6,19 @@
 }
 
 body {
-    background-color: rgb(43, 150, 96);
-    
+    background-color: #0463c8;
 }
 
-/* #navbar img {
-    width: 200px;
-    height: auto;
-} */
+section{
+    padding: 28px 8%;
+}
 
 .btn-default {
     border: none;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: aliceblue;
+    background-color: blanchedalmond;
     border-radius: 12px;
     padding: 10px 14px;
     font-weight: 600;
@@ -31,5 +29,29 @@ body {
 
 .btn-default:hover {
     background-color: aquamarine;
+}
+
+.social-media-buttons {
+    display: flex;
+    gap: 18px;
+}
+
+.social-media-buttons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 40px;
+    background-color: white;
+    font-size: 1.25rem;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #1d1d1d;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow .3s ease;
+}
+
+.social-media-buttons a:hover {
+    box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.1);
 }
 
