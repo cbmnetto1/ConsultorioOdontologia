@@ -14,7 +14,7 @@
 
 #cta .title{
     font-size: 4rem;
-    color: #1d1d1d;
+    color: #DCC6AF;
 }
 
 #cta .description{
@@ -55,16 +55,16 @@
 }
 
 #banner img {
-    height: 100%;
-    width: fit-content;
+    height: auto;
+    width: 50%;
 }
 
 .shape {
-    background-color: lightseagreen;
+    background-color: #DCC6AF;
     width: 50%;
     height: 100%;
     position: absolute;
-    border-radius: 40% 30% 0% 20%;
+    border-radius: 30% 30% 30% 30%;
     top: 0;
     right: 0;
     z-index: 1;
