@@ -5,17 +5,15 @@
 }
 
 #cta{
-    width: 100%;
+    width: 35%;
     display: flex;
     flex-direction: column;
     gap: 28px;
-    align-items: center;
-    margin-top: 20px;
-    bottom: 0;
+    margin-top: 5%;
 }
 
 #cta .title{
-    font-family: 'Pacifico', cursive;
+    color: #DCC6AF;
 }
 
 #cta .description{
@@ -30,7 +28,7 @@
 
 #cta-buttons a{
     text-decoration: none;
-    color: #e9ad6d;
+    color: #e9a45a;
 }
 
 #phone-button{
