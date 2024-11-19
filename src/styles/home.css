@@ -48,18 +48,19 @@
 
 #banner {
     display: flex;
-    align-items: end;
+    align-items: center;
     justify-content: end;
+    right: 5%;
     width: 100%;
     z-index: 2;
-    
+    position: relative; /* Importante para o posicionamento relativo ao shape */
 }
 
 #banner img {
     height: auto;
-    width: 25%;
-    position: absolute;
-    top: 0;
+    width: 45%;
+    position: relative;
+    z-index: 2;
 }
 
 .shape {
@@ -67,7 +68,7 @@
     width: 50%;
     height: 100%;
     position: absolute;
-    border-radius: 30% 30% 30% 30%;
+    border-radius: 100% 100% 100% 100%;
     top: 0;
     right: 0;
     z-index: 1;
