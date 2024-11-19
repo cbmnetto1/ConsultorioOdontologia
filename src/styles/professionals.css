@@ -1,0 +1,41 @@
+#professionals {
+    min-height: calc(100vh- 91px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+}
+
+#dentist1 {
+    width: 500px;
+    height: auto;
+}
+
+#professionals .section-subtitle {
+    font-size: 3rem;
+    color: #DCC6AF;
+}
+
+#professionals-description-content{
+    width: 50%;
+}
+
+.professionals-description{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: fff;
+    padding: 12px;
+    border-radius: 12px;
+}
+
+.professionals-shape {
+    background-color: #DCC6AF;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    border-radius: 100% 100% 100% 100%;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
