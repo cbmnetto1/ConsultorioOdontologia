@@ -10,22 +10,5 @@ de odontologia no site
 
 REQUESITOS NÃO-FUNCIONAIS
 
-Performance:
-
-Tempo de resposta rápido, especialmente em celulares
-Suporte a alta conexão de usuários
-
-Usabilidade:
-
-Design responsivo para diferentes tipos de tela
-Interface intuitiva
-
-Confiabilidade:
-
-Garantir que o sie esteja disponível o máximo possível
-Implementar backups automáticos para recuperação rápida em caso de falha ou perda de dados
-
-Manutenção:
-
-Documentar claramente o código para manutenção futura
+Fazer a versão mobile
 
