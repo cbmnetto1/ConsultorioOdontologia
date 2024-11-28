@@ -1,16 +1,46 @@
-* {
-    font-family: Arial, sans-serif; 
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+:root {
+    --c-dark: #580728; /* Cor principal escura */
+    --c-brand: #DCC6AF; /* Cor clara de destaque */
+    --c-brand-light: #E9DBC8; /* Variante mais clara da cor de destaque */
+    --c-brand-hover: #7A0A36; /* Cor para hover em botões */
+    --c-body: #1F0E10; /* Cor para texto principal */
+    --c-text-secondary: #785356; /* Cor para texto secundário */
+    --c-bg-light: #F9F4EF; /* Fundo claro */
+    --c-border: #D6C3B5; /* Cor para bordas suaves */
+    --font-base: Arial, sans-serif;
+    --box-shadow: 0px 15px 25px rgba(0,0,0,0.08);
+    --transition: all 0.5s ease;
 }
 
 body {
-    background-color: #580728;
+    font-family: var(--font-base);
+    line-height: 1.7;
+    color: var(--c-brand-light);
 }
 
-section{
-    padding: 28px 8%;
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    color: var(--c-brand);
+    transition: var(--transition);
+}
+
+a:hover {
+    color: var(--c-brand-light);
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.section-padding {
+    padding-top: 140px;
+    padding-bottom: 140px;
 }
 
 .btn-default {
@@ -18,45 +48,13 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #580728;
-    color: #DCC6AF;
+    background-color: var(--c-brand);
+    color: var(--c-body);
     border-radius: 12px;
     padding: 10px 14px;
     font-weight: 600;
     box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     transition: background-color .3s ease;
-}
-
-.btn-default:hover {
-    background-color: #580728;
-}
-
-.social-media-buttons {
-    display: flex;
-    gap: 18px;
-}
-
-.social-media-buttons a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 45px;
-    height: 40px;
-    background-color: white;
-    font-size: 1.25rem;
-    border-radius: 10px;
-    text-decoration: none;
-    color: #1d1d1d;
-    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
-    transition: box-shadow .3s ease;
-}
-
-.social-media-buttons a:hover {
-    box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.1);
-}
-
-.section-title {
-    color: #DCC6AF;
-    font-size: 1.563rem;
+    white-space: nowrap;
 }
