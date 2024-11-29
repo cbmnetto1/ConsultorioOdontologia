@@ -3,21 +3,23 @@ header {
     padding: 10px 8%;
     background-color: var(--c-dark);
     z-index: 3;
-    position: fixed; 
+    position: sticky; 
     top: 0;
     left: 0;
     transition: all 0.3s ease-in-out;
+    box-shadow: none;
+    height: 70px;
 }
 
 
 header.scrolled {
     padding: 5px 8%; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 img{
-    max-width: 15%;
+    max-width: 30%;
     height: auto;
-    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
 header.scrolled img {
@@ -31,7 +33,7 @@ header.scrolled img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.1s ease-in-out;
 }
 
 header.scrolled .navbar {
@@ -42,10 +44,18 @@ header.scrolled .navbar {
     color: var(--c-brand);
     font-weight: 600;
     display: flex;
+    margin: 0 15px;
+    transition: color 0.3s ease-in-out;
     list-style: none;
     gap: 48px;
 }
 
+.navbar .nav-link:hover,
 .navbar .nav-link.active{
     color: var(--c-brand-light);
+}
+
+.navbar-toggler {
+    top: 0;
+    position: fixed;
 }

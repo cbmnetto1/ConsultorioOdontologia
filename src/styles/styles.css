@@ -16,6 +16,7 @@ body {
     font-family: var(--font-base);
     line-height: 1.7;
     color: var(--c-brand-light);
+    background-color: var(--c-brand-light);
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -43,7 +44,8 @@ img{
     padding-bottom: 140px;
 }
 
-.btn-default {
+.btn-default,
+.navbar-toggler {
     border: none;
     display: flex;
     align-items: center;
